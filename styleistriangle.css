@@ -16,6 +16,7 @@ body{
     text-align: right;
 }
 .list li{
+    display: inline;
     padding: 1rem;    
 }
 /* is triangle css  */
