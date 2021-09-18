@@ -15,9 +15,12 @@ body{
     list-style: none;
     text-align: right;
 }
-.list li{
+.list li{ 
     display: inline;
     padding: 1rem;    
+}
+.list li a{
+text-decoration: none;
 }
 /* is triangle css  */
 h1{

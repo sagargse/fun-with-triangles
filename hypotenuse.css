@@ -2,6 +2,28 @@ body{
     font-family: 'Montserrat', sans-serif;
     text-align: center; 
 }
+.topnav{
+    background-color: #F59E0B;
+    font-size: 30px;
+    border-radius: 1rem;
+    color:white;
+}
+.topnav div{
+    text-align: left;
+}
+.list{
+    list-style: none;
+    text-align: right;
+}
+.list li{ 
+    display: inline;
+    padding: 1rem;    
+}
+.list li a{
+text-decoration: none;
+}
+
+
 h1{
     color:#F59E0B;
 }
@@ -11,7 +33,7 @@ label{
     margin: auto;
     padding: 1rem;
 }
-.side-input{
+.input1{
     display: block;
     margin: auto;
     outline: #F59E0B;

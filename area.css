@@ -2,6 +2,29 @@ body{
     font-family: 'Montserrat', sans-serif;
     text-align: center; 
 }
+.topnav{
+    background-color: #F59E0B;
+    font-size: 30px;
+    border-radius: 1rem;
+    color:white;
+}
+.topnav div{
+    text-align: left;
+}
+.list{
+    list-style: none;
+    text-align: right;
+}
+.list li{ 
+    display: inline;
+    padding: 1rem;    
+}
+.list li a{
+text-decoration: none;
+}
+
+
+
 h1{
     color:#F59E0B;
 }
@@ -11,7 +34,17 @@ label{
     margin: auto;
     padding: 1rem;
 }
-.inputs{
+.input1{
+    display: block;
+    margin: auto;
+    outline: #F59E0B;
+    border: 3px solid #F59E0B;
+    border-radius: 1rem;
+    font-size: large;
+    margin: 1rem auto 1rem auto;
+    padding: 0.5rem;
+}
+.input2{
     display: block;
     margin: auto;
     outline: #F59E0B;
