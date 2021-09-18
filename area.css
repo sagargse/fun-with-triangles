@@ -34,7 +34,7 @@ label{
     margin: auto;
     padding: 1rem;
 }
-.input1{
+#input1{
     display: block;
     margin: auto;
     outline: #F59E0B;
@@ -44,7 +44,7 @@ label{
     margin: 1rem auto 1rem auto;
     padding: 0.5rem;
 }
-.input2{
+#input2{
     display: block;
     margin: auto;
     outline: #F59E0B;
