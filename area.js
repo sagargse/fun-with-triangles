@@ -9,7 +9,7 @@ function calculateArea(b ,h){
 }
 function finalArea(){
     const area = calculateArea(Number(input1.value),Number(input2.value))
-    outputs.innerText = "Area is" + area;
+    outputs.innerText = "Area is " + area;
 }
  
 calculateButton.addEventListener("click", finalArea)
