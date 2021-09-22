@@ -23,6 +23,7 @@ body{
 }
 .list li a{
 text-decoration: none;
+color: white;
 }
 /* is triangle css  */
 h1{
