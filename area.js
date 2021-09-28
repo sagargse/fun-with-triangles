@@ -9,7 +9,13 @@ function calculateArea(b ,h){
 }
 function finalArea(){
     const area = calculateArea(Number(input1.value),Number(input2.value))
+    if(input1.value>0 && input2.value>0){
     outputs.innerText = "Area is " + area;
+    }
+    else{
+        outputs.innerText = "Please enter a valid base or height length"
+    }
+
 }
  
 calculateButton.addEventListener("click", finalArea)
